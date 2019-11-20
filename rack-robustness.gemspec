@@ -123,10 +123,11 @@ Gem::Specification.new do |s|
   # One call to add_development_dependency('gem_name', 'gem version requirement')
   # for each development dependency. These gems are required for developers
   #
-  s.add_development_dependency("rake", "~> 10.0")
-  s.add_development_dependency("rspec", "~> 2.12")
-  s.add_development_dependency("rack", "~> 1.5")
-  s.add_development_dependency("rack-test", "~> 0.6")
+  s.add_development_dependency("rake")
+  s.add_development_dependency("rspec", "~> 2.14")
+  s.add_development_dependency("rack")
+  s.add_development_dependency("rack-test")
+  s.add_development_dependency("transpec")
   
 
   # The version of ruby required by this gem
